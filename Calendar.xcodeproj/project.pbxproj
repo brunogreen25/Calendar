@@ -1,0 +1,850 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5221277E22BD780E0090887A /* CalendarSCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5221277D22BD780E0090887A /* CalendarSCell.xib */; };
+		5221278022BD781B0090887A /* CalendarSCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5221277F22BD781B0090887A /* CalendarSCell.swift */; };
+		526AC03A22BD82910091B5AD /* CalendarPCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526AC03922BD82910091B5AD /* CalendarPCell.swift */; };
+		526AC03C22BD829D0091B5AD /* CalendarPCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 526AC03B22BD829D0091B5AD /* CalendarPCell.xib */; };
+		52FB155C22BBED300092B37C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB155B22BBED300092B37C /* AppDelegate.swift */; };
+		52FB155E22BBED300092B37C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB155D22BBED300092B37C /* ViewController.swift */; };
+		52FB156122BBED300092B37C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52FB155F22BBED300092B37C /* Main.storyboard */; };
+		52FB156622BBED340092B37C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52FB156522BBED340092B37C /* Assets.xcassets */; };
+		52FB156922BBED340092B37C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52FB156722BBED340092B37C /* LaunchScreen.storyboard */; };
+		52FB157422BBED340092B37C /* CalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB157322BBED340092B37C /* CalendarTests.swift */; };
+		52FB157F22BBED340092B37C /* CalendarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB157E22BBED340092B37C /* CalendarUITests.swift */; };
+		52FB158E22BBEF820092B37C /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB158D22BBEF820092B37C /* Login.swift */; };
+		52FB159022BBEF960092B37C /* Login.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52FB158F22BBEF960092B37C /* Login.xib */; };
+		52FB159222BBF1470092B37C /* RegisterStudent.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52FB159122BBF1470092B37C /* RegisterStudent.xib */; };
+		52FB159422BBF1670092B37C /* RegisterProfessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB159322BBF1670092B37C /* RegisterProfessor.swift */; };
+		52FB159622BBF1740092B37C /* RegisterProfessor.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52FB159522BBF1740092B37C /* RegisterProfessor.xib */; };
+		52FB159822BBF1800092B37C /* RegisterStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB159722BBF1800092B37C /* RegisterStudent.swift */; };
+		52FB159B22BBFE3B0092B37C /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB159A22BBFE3B0092B37C /* TabBarController.swift */; };
+		52FB159D22BBFECE0092B37C /* TabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52FB159C22BBFECE0092B37C /* TabBarController.xib */; };
+		52FB15A122BBFFD30092B37C /* CalendarP.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52FB15A022BBFFD30092B37C /* CalendarP.xib */; };
+		52FB15A322BBFFE40092B37C /* CalendarP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB15A222BBFFE40092B37C /* CalendarP.swift */; };
+		52FB15A522BBFFEE0092B37C /* CalendarS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB15A422BBFFEE0092B37C /* CalendarS.swift */; };
+		52FB15A722BC00040092B37C /* CalendarS.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52FB15A622BC00040092B37C /* CalendarS.xib */; };
+		52FB15A922BC03110092B37C /* ChooseSubject.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52FB15A822BC03110092B37C /* ChooseSubject.xib */; };
+		52FB15AB22BC03210092B37C /* ChooseGroup.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52FB15AA22BC03210092B37C /* ChooseGroup.xib */; };
+		52FB15AD22BC032C0092B37C /* ChooseSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB15AC22BC032C0092B37C /* ChooseSubject.swift */; };
+		52FB15AF22BC033C0092B37C /* ChooseGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB15AE22BC033C0092B37C /* ChooseGroup.swift */; };
+		52FB15B122BC035A0092B37C /* InputSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB15B022BC035A0092B37C /* InputSubject.swift */; };
+		52FB15B322BC03660092B37C /* InputSubject.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52FB15B222BC03660092B37C /* InputSubject.xib */; };
+		52FB15B522BC073E0092B37C /* Logout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB15B422BC073E0092B37C /* Logout.swift */; };
+		52FB15B722BC07470092B37C /* Logout.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52FB15B622BC07470092B37C /* Logout.xib */; };
+		52FB15B922BC09800092B37C /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB15B822BC09800092B37C /* Alert.swift */; };
+		52FB15BC22BC2BE90092B37C /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB15BB22BC2BE90092B37C /* CoreDataManager.swift */; };
+		52FB15BF22BC2C210092B37C /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52FB15BD22BC2C210092B37C /* DataModel.xcdatamodeld */; };
+		52FB15C622BC345C0092B37C /* Professor+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB15C022BC345C0092B37C /* Professor+CoreDataClass.swift */; };
+		52FB15C722BC345C0092B37C /* Professor+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB15C122BC345C0092B37C /* Professor+CoreDataProperties.swift */; };
+		52FB15C822BC345C0092B37C /* Subject+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB15C222BC345C0092B37C /* Subject+CoreDataClass.swift */; };
+		52FB15C922BC345C0092B37C /* Subject+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB15C322BC345C0092B37C /* Subject+CoreDataProperties.swift */; };
+		52FB15CA22BC345C0092B37C /* Student+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB15C422BC345C0092B37C /* Student+CoreDataClass.swift */; };
+		52FB15CB22BC345C0092B37C /* Student+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB15C522BC345C0092B37C /* Student+CoreDataProperties.swift */; };
+		52FB15CD22BC35430092B37C /* StudentCoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB15CC22BC35430092B37C /* StudentCoreDataService.swift */; };
+		52FB15CF22BC35E40092B37C /* ProfessorCoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB15CE22BC35E40092B37C /* ProfessorCoreDataService.swift */; };
+		52FB15D122BC35F40092B37C /* SubjectCoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB15D022BC35F40092B37C /* SubjectCoreDataService.swift */; };
+		52FB15D422BC435A0092B37C /* ProfessorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB15D322BC435A0092B37C /* ProfessorModel.swift */; };
+		52FB15D622BC43620092B37C /* StudentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB15D522BC43620092B37C /* StudentModel.swift */; };
+		52FB15D822BC436A0092B37C /* SubjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB15D722BC436A0092B37C /* SubjectModel.swift */; };
+		52FB15DA22BCF3510092B37C /* ChooseSubjectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB15D922BCF3510092B37C /* ChooseSubjectCell.swift */; };
+		52FB15DC22BCF35C0092B37C /* ChooseSubjectCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52FB15DB22BCF35C0092B37C /* ChooseSubjectCell.xib */; };
+		52FB15DE22BD0E710092B37C /* ChooseGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FB15DD22BD0E710092B37C /* ChooseGroupCell.swift */; };
+		52FB15E022BD0E7C0092B37C /* ChooseGroupCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52FB15DF22BD0E7C0092B37C /* ChooseGroupCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52FB157022BBED340092B37C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52FB155022BBED300092B37C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52FB155722BBED300092B37C;
+			remoteInfo = Calendar;
+		};
+		52FB157B22BBED340092B37C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52FB155022BBED300092B37C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52FB155722BBED300092B37C;
+			remoteInfo = Calendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5221277D22BD780E0090887A /* CalendarSCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalendarSCell.xib; sourceTree = "<group>"; };
+		5221277F22BD781B0090887A /* CalendarSCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarSCell.swift; sourceTree = "<group>"; };
+		526AC03922BD82910091B5AD /* CalendarPCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarPCell.swift; sourceTree = "<group>"; };
+		526AC03B22BD829D0091B5AD /* CalendarPCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalendarPCell.xib; sourceTree = "<group>"; };
+		52FB155822BBED300092B37C /* Calendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52FB155B22BBED300092B37C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52FB155D22BBED300092B37C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52FB156022BBED300092B37C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52FB156522BBED340092B37C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52FB156822BBED340092B37C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52FB156A22BBED340092B37C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52FB156F22BBED340092B37C /* CalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52FB157322BBED340092B37C /* CalendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarTests.swift; sourceTree = "<group>"; };
+		52FB157522BBED340092B37C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52FB157A22BBED340092B37C /* CalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52FB157E22BBED340092B37C /* CalendarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarUITests.swift; sourceTree = "<group>"; };
+		52FB158022BBED340092B37C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52FB158D22BBEF820092B37C /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		52FB158F22BBEF960092B37C /* Login.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Login.xib; sourceTree = "<group>"; };
+		52FB159122BBF1470092B37C /* RegisterStudent.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterStudent.xib; sourceTree = "<group>"; };
+		52FB159322BBF1670092B37C /* RegisterProfessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterProfessor.swift; sourceTree = "<group>"; };
+		52FB159522BBF1740092B37C /* RegisterProfessor.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterProfessor.xib; sourceTree = "<group>"; };
+		52FB159722BBF1800092B37C /* RegisterStudent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterStudent.swift; sourceTree = "<group>"; };
+		52FB159A22BBFE3B0092B37C /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		52FB159C22BBFECE0092B37C /* TabBarController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabBarController.xib; sourceTree = "<group>"; };
+		52FB15A022BBFFD30092B37C /* CalendarP.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalendarP.xib; sourceTree = "<group>"; };
+		52FB15A222BBFFE40092B37C /* CalendarP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarP.swift; sourceTree = "<group>"; };
+		52FB15A422BBFFEE0092B37C /* CalendarS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarS.swift; sourceTree = "<group>"; };
+		52FB15A622BC00040092B37C /* CalendarS.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalendarS.xib; sourceTree = "<group>"; };
+		52FB15A822BC03110092B37C /* ChooseSubject.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChooseSubject.xib; sourceTree = "<group>"; };
+		52FB15AA22BC03210092B37C /* ChooseGroup.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChooseGroup.xib; sourceTree = "<group>"; };
+		52FB15AC22BC032C0092B37C /* ChooseSubject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseSubject.swift; sourceTree = "<group>"; };
+		52FB15AE22BC033C0092B37C /* ChooseGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseGroup.swift; sourceTree = "<group>"; };
+		52FB15B022BC035A0092B37C /* InputSubject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputSubject.swift; sourceTree = "<group>"; };
+		52FB15B222BC03660092B37C /* InputSubject.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InputSubject.xib; sourceTree = "<group>"; };
+		52FB15B422BC073E0092B37C /* Logout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logout.swift; sourceTree = "<group>"; };
+		52FB15B622BC07470092B37C /* Logout.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Logout.xib; sourceTree = "<group>"; };
+		52FB15B822BC09800092B37C /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		52FB15BB22BC2BE90092B37C /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		52FB15BE22BC2C210092B37C /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		52FB15C022BC345C0092B37C /* Professor+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Professor+CoreDataClass.swift"; sourceTree = "<group>"; };
+		52FB15C122BC345C0092B37C /* Professor+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Professor+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		52FB15C222BC345C0092B37C /* Subject+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Subject+CoreDataClass.swift"; sourceTree = "<group>"; };
+		52FB15C322BC345C0092B37C /* Subject+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Subject+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		52FB15C422BC345C0092B37C /* Student+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataClass.swift"; sourceTree = "<group>"; };
+		52FB15C522BC345C0092B37C /* Student+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		52FB15CC22BC35430092B37C /* StudentCoreDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentCoreDataService.swift; sourceTree = "<group>"; };
+		52FB15CE22BC35E40092B37C /* ProfessorCoreDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessorCoreDataService.swift; sourceTree = "<group>"; };
+		52FB15D022BC35F40092B37C /* SubjectCoreDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectCoreDataService.swift; sourceTree = "<group>"; };
+		52FB15D322BC435A0092B37C /* ProfessorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessorModel.swift; sourceTree = "<group>"; };
+		52FB15D522BC43620092B37C /* StudentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentModel.swift; sourceTree = "<group>"; };
+		52FB15D722BC436A0092B37C /* SubjectModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectModel.swift; sourceTree = "<group>"; };
+		52FB15D922BCF3510092B37C /* ChooseSubjectCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseSubjectCell.swift; sourceTree = "<group>"; };
+		52FB15DB22BCF35C0092B37C /* ChooseSubjectCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChooseSubjectCell.xib; sourceTree = "<group>"; };
+		52FB15DD22BD0E710092B37C /* ChooseGroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseGroupCell.swift; sourceTree = "<group>"; };
+		52FB15DF22BD0E7C0092B37C /* ChooseGroupCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChooseGroupCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52FB155522BBED300092B37C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52FB156C22BBED340092B37C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52FB157722BBED340092B37C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5221277C22BD77AC0090887A /* CalendarS */ = {
+			isa = PBXGroup;
+			children = (
+				52FB15A422BBFFEE0092B37C /* CalendarS.swift */,
+				52FB15A622BC00040092B37C /* CalendarS.xib */,
+				5221277F22BD781B0090887A /* CalendarSCell.swift */,
+				5221277D22BD780E0090887A /* CalendarSCell.xib */,
+			);
+			path = CalendarS;
+			sourceTree = "<group>";
+		};
+		526AC03822BD82720091B5AD /* CalendarP */ = {
+			isa = PBXGroup;
+			children = (
+				52FB15A222BBFFE40092B37C /* CalendarP.swift */,
+				52FB15A022BBFFD30092B37C /* CalendarP.xib */,
+				526AC03922BD82910091B5AD /* CalendarPCell.swift */,
+				526AC03B22BD829D0091B5AD /* CalendarPCell.xib */,
+			);
+			path = CalendarP;
+			sourceTree = "<group>";
+		};
+		52FB154F22BBED300092B37C = {
+			isa = PBXGroup;
+			children = (
+				52FB15D222BC434D0092B37C /* Models */,
+				52FB15BA22BC2B9E0092B37C /* CoreData */,
+				52FB159F22BBFF4B0092B37C /* ProfessorViewController */,
+				52FB159E22BBFF3B0092B37C /* StudentViewController */,
+				52FB159922BBFE260092B37C /* TabBarController */,
+				52FB158C22BBED3E0092B37C /* LoginRegister */,
+				52FB155A22BBED300092B37C /* Calendar */,
+				52FB157222BBED340092B37C /* CalendarTests */,
+				52FB157D22BBED340092B37C /* CalendarUITests */,
+				52FB155922BBED300092B37C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52FB155922BBED300092B37C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52FB155822BBED300092B37C /* Calendar.app */,
+				52FB156F22BBED340092B37C /* CalendarTests.xctest */,
+				52FB157A22BBED340092B37C /* CalendarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52FB155A22BBED300092B37C /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				52FB155B22BBED300092B37C /* AppDelegate.swift */,
+				52FB155D22BBED300092B37C /* ViewController.swift */,
+				52FB155F22BBED300092B37C /* Main.storyboard */,
+				52FB156522BBED340092B37C /* Assets.xcassets */,
+				52FB156722BBED340092B37C /* LaunchScreen.storyboard */,
+				52FB156A22BBED340092B37C /* Info.plist */,
+				52FB15B822BC09800092B37C /* Alert.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		52FB157222BBED340092B37C /* CalendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				52FB157322BBED340092B37C /* CalendarTests.swift */,
+				52FB157522BBED340092B37C /* Info.plist */,
+			);
+			path = CalendarTests;
+			sourceTree = "<group>";
+		};
+		52FB157D22BBED340092B37C /* CalendarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52FB157E22BBED340092B37C /* CalendarUITests.swift */,
+				52FB158022BBED340092B37C /* Info.plist */,
+			);
+			path = CalendarUITests;
+			sourceTree = "<group>";
+		};
+		52FB158C22BBED3E0092B37C /* LoginRegister */ = {
+			isa = PBXGroup;
+			children = (
+				52FB158D22BBEF820092B37C /* Login.swift */,
+				52FB158F22BBEF960092B37C /* Login.xib */,
+				52FB159322BBF1670092B37C /* RegisterProfessor.swift */,
+				52FB159522BBF1740092B37C /* RegisterProfessor.xib */,
+				52FB159722BBF1800092B37C /* RegisterStudent.swift */,
+				52FB159122BBF1470092B37C /* RegisterStudent.xib */,
+				52FB15B422BC073E0092B37C /* Logout.swift */,
+				52FB15B622BC07470092B37C /* Logout.xib */,
+			);
+			path = LoginRegister;
+			sourceTree = "<group>";
+		};
+		52FB159922BBFE260092B37C /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				52FB159A22BBFE3B0092B37C /* TabBarController.swift */,
+				52FB159C22BBFECE0092B37C /* TabBarController.xib */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		52FB159E22BBFF3B0092B37C /* StudentViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5221277C22BD77AC0090887A /* CalendarS */,
+				52FB15E222BD46940092B37C /* ChooseGroup */,
+				52FB15E122BD467C0092B37C /* ChooseSubject */,
+			);
+			path = StudentViewController;
+			sourceTree = "<group>";
+		};
+		52FB159F22BBFF4B0092B37C /* ProfessorViewController */ = {
+			isa = PBXGroup;
+			children = (
+				526AC03822BD82720091B5AD /* CalendarP */,
+				52FB15B022BC035A0092B37C /* InputSubject.swift */,
+				52FB15B222BC03660092B37C /* InputSubject.xib */,
+			);
+			path = ProfessorViewController;
+			sourceTree = "<group>";
+		};
+		52FB15BA22BC2B9E0092B37C /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				52FB15C022BC345C0092B37C /* Professor+CoreDataClass.swift */,
+				52FB15C122BC345C0092B37C /* Professor+CoreDataProperties.swift */,
+				52FB15C222BC345C0092B37C /* Subject+CoreDataClass.swift */,
+				52FB15C322BC345C0092B37C /* Subject+CoreDataProperties.swift */,
+				52FB15C422BC345C0092B37C /* Student+CoreDataClass.swift */,
+				52FB15C522BC345C0092B37C /* Student+CoreDataProperties.swift */,
+				52FB15BB22BC2BE90092B37C /* CoreDataManager.swift */,
+				52FB15CC22BC35430092B37C /* StudentCoreDataService.swift */,
+				52FB15CE22BC35E40092B37C /* ProfessorCoreDataService.swift */,
+				52FB15D022BC35F40092B37C /* SubjectCoreDataService.swift */,
+				52FB15BD22BC2C210092B37C /* DataModel.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		52FB15D222BC434D0092B37C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				52FB15D322BC435A0092B37C /* ProfessorModel.swift */,
+				52FB15D522BC43620092B37C /* StudentModel.swift */,
+				52FB15D722BC436A0092B37C /* SubjectModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		52FB15E122BD467C0092B37C /* ChooseSubject */ = {
+			isa = PBXGroup;
+			children = (
+				52FB15AC22BC032C0092B37C /* ChooseSubject.swift */,
+				52FB15A822BC03110092B37C /* ChooseSubject.xib */,
+				52FB15D922BCF3510092B37C /* ChooseSubjectCell.swift */,
+				52FB15DB22BCF35C0092B37C /* ChooseSubjectCell.xib */,
+			);
+			path = ChooseSubject;
+			sourceTree = "<group>";
+		};
+		52FB15E222BD46940092B37C /* ChooseGroup */ = {
+			isa = PBXGroup;
+			children = (
+				52FB15AE22BC033C0092B37C /* ChooseGroup.swift */,
+				52FB15AA22BC03210092B37C /* ChooseGroup.xib */,
+				52FB15DD22BD0E710092B37C /* ChooseGroupCell.swift */,
+				52FB15DF22BD0E7C0092B37C /* ChooseGroupCell.xib */,
+			);
+			path = ChooseGroup;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52FB155722BBED300092B37C /* Calendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52FB158322BBED340092B37C /* Build configuration list for PBXNativeTarget "Calendar" */;
+			buildPhases = (
+				52FB155422BBED300092B37C /* Sources */,
+				52FB155522BBED300092B37C /* Frameworks */,
+				52FB155622BBED300092B37C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Calendar;
+			productName = Calendar;
+			productReference = 52FB155822BBED300092B37C /* Calendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52FB156E22BBED340092B37C /* CalendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52FB158622BBED340092B37C /* Build configuration list for PBXNativeTarget "CalendarTests" */;
+			buildPhases = (
+				52FB156B22BBED340092B37C /* Sources */,
+				52FB156C22BBED340092B37C /* Frameworks */,
+				52FB156D22BBED340092B37C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52FB157122BBED340092B37C /* PBXTargetDependency */,
+			);
+			name = CalendarTests;
+			productName = CalendarTests;
+			productReference = 52FB156F22BBED340092B37C /* CalendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52FB157922BBED340092B37C /* CalendarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52FB158922BBED340092B37C /* Build configuration list for PBXNativeTarget "CalendarUITests" */;
+			buildPhases = (
+				52FB157622BBED340092B37C /* Sources */,
+				52FB157722BBED340092B37C /* Frameworks */,
+				52FB157822BBED340092B37C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52FB157C22BBED340092B37C /* PBXTargetDependency */,
+			);
+			name = CalendarUITests;
+			productName = CalendarUITests;
+			productReference = 52FB157A22BBED340092B37C /* CalendarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52FB155022BBED300092B37C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = BrunoJ;
+				TargetAttributes = {
+					52FB155722BBED300092B37C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					52FB156E22BBED340092B37C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 52FB155722BBED300092B37C;
+					};
+					52FB157922BBED340092B37C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 52FB155722BBED300092B37C;
+					};
+				};
+			};
+			buildConfigurationList = 52FB155322BBED300092B37C /* Build configuration list for PBXProject "Calendar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52FB154F22BBED300092B37C;
+			productRefGroup = 52FB155922BBED300092B37C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52FB155722BBED300092B37C /* Calendar */,
+				52FB156E22BBED340092B37C /* CalendarTests */,
+				52FB157922BBED340092B37C /* CalendarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52FB155622BBED300092B37C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FB15A122BBFFD30092B37C /* CalendarP.xib in Resources */,
+				52FB15B722BC07470092B37C /* Logout.xib in Resources */,
+				52FB15B322BC03660092B37C /* InputSubject.xib in Resources */,
+				52FB156922BBED340092B37C /* LaunchScreen.storyboard in Resources */,
+				52FB15E022BD0E7C0092B37C /* ChooseGroupCell.xib in Resources */,
+				526AC03C22BD829D0091B5AD /* CalendarPCell.xib in Resources */,
+				52FB159222BBF1470092B37C /* RegisterStudent.xib in Resources */,
+				52FB15DC22BCF35C0092B37C /* ChooseSubjectCell.xib in Resources */,
+				52FB156622BBED340092B37C /* Assets.xcassets in Resources */,
+				52FB159D22BBFECE0092B37C /* TabBarController.xib in Resources */,
+				52FB156122BBED300092B37C /* Main.storyboard in Resources */,
+				52FB15A722BC00040092B37C /* CalendarS.xib in Resources */,
+				52FB15A922BC03110092B37C /* ChooseSubject.xib in Resources */,
+				52FB159622BBF1740092B37C /* RegisterProfessor.xib in Resources */,
+				52FB15AB22BC03210092B37C /* ChooseGroup.xib in Resources */,
+				52FB159022BBEF960092B37C /* Login.xib in Resources */,
+				5221277E22BD780E0090887A /* CalendarSCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52FB156D22BBED340092B37C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52FB157822BBED340092B37C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52FB155422BBED300092B37C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FB15C822BC345C0092B37C /* Subject+CoreDataClass.swift in Sources */,
+				52FB15AF22BC033C0092B37C /* ChooseGroup.swift in Sources */,
+				52FB159422BBF1670092B37C /* RegisterProfessor.swift in Sources */,
+				52FB15DA22BCF3510092B37C /* ChooseSubjectCell.swift in Sources */,
+				52FB15D422BC435A0092B37C /* ProfessorModel.swift in Sources */,
+				52FB15D122BC35F40092B37C /* SubjectCoreDataService.swift in Sources */,
+				52FB15DE22BD0E710092B37C /* ChooseGroupCell.swift in Sources */,
+				52FB155E22BBED300092B37C /* ViewController.swift in Sources */,
+				52FB15BC22BC2BE90092B37C /* CoreDataManager.swift in Sources */,
+				52FB15C922BC345C0092B37C /* Subject+CoreDataProperties.swift in Sources */,
+				52FB15CF22BC35E40092B37C /* ProfessorCoreDataService.swift in Sources */,
+				52FB15CB22BC345C0092B37C /* Student+CoreDataProperties.swift in Sources */,
+				52FB15AD22BC032C0092B37C /* ChooseSubject.swift in Sources */,
+				52FB15CD22BC35430092B37C /* StudentCoreDataService.swift in Sources */,
+				52FB15B522BC073E0092B37C /* Logout.swift in Sources */,
+				5221278022BD781B0090887A /* CalendarSCell.swift in Sources */,
+				52FB15B922BC09800092B37C /* Alert.swift in Sources */,
+				52FB15D822BC436A0092B37C /* SubjectModel.swift in Sources */,
+				52FB15CA22BC345C0092B37C /* Student+CoreDataClass.swift in Sources */,
+				52FB158E22BBEF820092B37C /* Login.swift in Sources */,
+				52FB15BF22BC2C210092B37C /* DataModel.xcdatamodeld in Sources */,
+				52FB15A322BBFFE40092B37C /* CalendarP.swift in Sources */,
+				526AC03A22BD82910091B5AD /* CalendarPCell.swift in Sources */,
+				52FB159B22BBFE3B0092B37C /* TabBarController.swift in Sources */,
+				52FB15D622BC43620092B37C /* StudentModel.swift in Sources */,
+				52FB15A522BBFFEE0092B37C /* CalendarS.swift in Sources */,
+				52FB15B122BC035A0092B37C /* InputSubject.swift in Sources */,
+				52FB159822BBF1800092B37C /* RegisterStudent.swift in Sources */,
+				52FB155C22BBED300092B37C /* AppDelegate.swift in Sources */,
+				52FB15C622BC345C0092B37C /* Professor+CoreDataClass.swift in Sources */,
+				52FB15C722BC345C0092B37C /* Professor+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52FB156B22BBED340092B37C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FB157422BBED340092B37C /* CalendarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52FB157622BBED340092B37C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FB157F22BBED340092B37C /* CalendarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52FB157122BBED340092B37C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52FB155722BBED300092B37C /* Calendar */;
+			targetProxy = 52FB157022BBED340092B37C /* PBXContainerItemProxy */;
+		};
+		52FB157C22BBED340092B37C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52FB155722BBED300092B37C /* Calendar */;
+			targetProxy = 52FB157B22BBED340092B37C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52FB155F22BBED300092B37C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52FB156022BBED300092B37C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52FB156722BBED340092B37C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52FB156822BBED340092B37C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52FB158122BBED340092B37C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52FB158222BBED340092B37C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52FB158422BBED340092B37C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Calendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hr.fer.jerkovic.bruno.Calendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52FB158522BBED340092B37C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Calendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hr.fer.jerkovic.bruno.Calendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		52FB158722BBED340092B37C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hr.fer.jerkovic.bruno.CalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calendar.app/Calendar";
+			};
+			name = Debug;
+		};
+		52FB158822BBED340092B37C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hr.fer.jerkovic.bruno.CalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calendar.app/Calendar";
+			};
+			name = Release;
+		};
+		52FB158A22BBED340092B37C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CalendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hr.fer.jerkovic.bruno.CalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Calendar;
+			};
+			name = Debug;
+		};
+		52FB158B22BBED340092B37C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CalendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hr.fer.jerkovic.bruno.CalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Calendar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52FB155322BBED300092B37C /* Build configuration list for PBXProject "Calendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52FB158122BBED340092B37C /* Debug */,
+				52FB158222BBED340092B37C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52FB158322BBED340092B37C /* Build configuration list for PBXNativeTarget "Calendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52FB158422BBED340092B37C /* Debug */,
+				52FB158522BBED340092B37C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52FB158622BBED340092B37C /* Build configuration list for PBXNativeTarget "CalendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52FB158722BBED340092B37C /* Debug */,
+				52FB158822BBED340092B37C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52FB158922BBED340092B37C /* Build configuration list for PBXNativeTarget "CalendarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52FB158A22BBED340092B37C /* Debug */,
+				52FB158B22BBED340092B37C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		52FB15BD22BC2C210092B37C /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				52FB15BE22BC2C210092B37C /* DataModel.xcdatamodel */,
+			);
+			currentVersion = 52FB15BE22BC2C210092B37C /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 52FB155022BBED300092B37C /* Project object */;
+}

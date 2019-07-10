@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="260" id="hBy-lW-MJx" customClass="ChooseGroupCell" customModule="Calendar" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="543" height="260"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hBy-lW-MJx" id="hZN-bC-ucT">
+                <rect key="frame" x="0.0" y="0.0" width="543" height="259.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ime" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HFZ-FG-OH4">
+                        <rect key="frame" x="20" y="11" width="503" height="176"/>
+                        <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="42S-Zb-Y7P">
+                        <rect key="frame" x="225" y="205" width="92" height="44"/>
+                        <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="92" id="Dru-fy-OPz"/>
+                            <constraint firstAttribute="height" constant="44" id="V7p-0P-dBo"/>
+                        </constraints>
+                        <state key="normal" title="Attend">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <connections>
+                            <action selector="attendButtonClicked:" destination="hBy-lW-MJx" eventType="touchUpInside" id="YZw-p5-Gko"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="42S-Zb-Y7P" secondAttribute="bottom" id="1fj-Yg-Ljd"/>
+                    <constraint firstItem="42S-Zb-Y7P" firstAttribute="leading" secondItem="hZN-bC-ucT" secondAttribute="leadingMargin" constant="205" id="Q45-r5-eLp"/>
+                    <constraint firstItem="HFZ-FG-OH4" firstAttribute="top" secondItem="hZN-bC-ucT" secondAttribute="topMargin" id="T7e-LB-pnl"/>
+                    <constraint firstItem="HFZ-FG-OH4" firstAttribute="trailing" secondItem="hZN-bC-ucT" secondAttribute="trailingMargin" id="ciw-jp-5zV"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="42S-Zb-Y7P" secondAttribute="trailing" constant="206" id="kry-dc-Zvx"/>
+                    <constraint firstItem="42S-Zb-Y7P" firstAttribute="top" secondItem="HFZ-FG-OH4" secondAttribute="bottom" constant="18" id="pgy-dW-UOs"/>
+                    <constraint firstItem="HFZ-FG-OH4" firstAttribute="leading" secondItem="hZN-bC-ucT" secondAttribute="leadingMargin" id="xpU-jG-jBe"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="attendButton" destination="42S-Zb-Y7P" id="meG-19-X6Q"/>
+                <outlet property="infoLabel" destination="HFZ-FG-OH4" id="bDJ-8P-D13"/>
+            </connections>
+            <point key="canvasLocation" x="236" y="207.79610194902551"/>
+        </tableViewCell>
+    </objects>
+</document>
